@@ -75,30 +75,30 @@ This page is a quick introduction to the CMI Library.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> What is CMI Library (CMILib)
 
-It's a plugin helper that can deal with frequently used phrases, hex colors, etc. which all of zrips' plugins can use. This adds consistancy among the various plugins.
+It's a plugin helper that can deal with frequently used phrases, hex colors, etc. which all of Zrips' plugins can use. This adds consistency among the various plugins.
 
-You can see the CMI Lib page here: <https://www.zrips.net/CMILib/>
-You can find the CMI LIb download here: <https://www.spigotmc.org/resources/CMILib.87610/>
+You can see the CMILib page here: <https://www.zrips.net/CMILib/>
+You can find the CMILib download here: <https://www.spigotmc.org/resources/CMILib.87610/>
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Which plugins use this?
 
-The full list as of July 22nd, 2022
+The full list as of July 24th, 2022
 
-- CMI version 9.2.1.4
+- CMI version 9.2.2.0
 - Selection Visualizer version 3.2.0.0
 - TryMe version 7.0.0.3
 - Mob Farm Manager version 2.0.3.0
-- Residence version 5.0.1.6
+- Residence version 5.0.1.7
 - Jobs-Reborn version 5.1.0.0
 - BottledExp version 3.1.0.0
-- ReCount version 3.5.1
+- Recount version 3.5.1
 - TradeMe version 6.1.2.0
 
-These currently support Spigot-, and Paper 1.19 and lower, and require the CMILib version 1.2.1.2 or newer to properly operate.
+These currently support Spigot-, and Paper 1.19 and lower, and require the CMILib version 1.2.2.0 or newer to properly operate.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> How do I get it?
 
-Upon starting of any of these listed plugins it will try to automatically download it. If this fails, it will let you know where you can download the library .jar file from.
+Upon starting of any of these listed plugins it will try to automatically download it. If this fails, it will let you know where you can download the CMILib .jar file from.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> I have to restart
 
@@ -106,27 +106,25 @@ Yes, the first time a plugin or CMILib has loaded and converted any data. It's r
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backing up and testing?
 
-Yep, I strongly recommend to always back up you whole server before making changes, such as plugin updates. Test the upgrade with CMI Lib first. If it fails you can at least roll back to your back up like nothing happened.
+Yes, I strongly recommend to always back up your whole server before making changes, such as plugin updates. Test the upgrade with CMILib first. If it fails you can at least roll back to your backup like nothing happened.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Mismatching versions!
 
-OMG, I had CMI with Lib 1.0.0.2
-Then TryMe with Lib 1.0.1.0
-And now Residence with Lib 1.0.2.3
+I had CMI with CMILib 1.0.0.2, then TryMe with CMILib 1.0.1.0, and now Residence with CMILib 1.0.2.3.
 
 Don't panic, the latest version can be used by all the plugins. Once you're ready for that final restart, before you start it up, keep the latest, and delete older versions.
 
-From CMI Library version 1.0.2.4 onwards it should automatically clean-up older lib jars. If it does not, you can stop the server, manually remove the older jars and start the server again. So just make sure your CMILib is always the latest version.
+From CMILib version 1.0.2.4 onwards it should automatically clean up older CMILib jars. If it does not, you can stop the server, manually remove the older jars and start the server again. So just make sure your CMILib is always the latest version.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> I keep deleting this CMILib jar and it keeps coming back!
 
-Yes, Zrips plugins require the latest CMILib to properly work, you need it, don't delete it.
+Yes, Zrips plugins require the latest CMILib to properly work. It is required, don't delete it.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Auto-update Information
 
-The CMILib can be automatically upgraded, but not every operating system, hosting solution, etc. is the same. So it's possible it won't be flawless for you. If something's not working as expected, do not forget to report it as an issue on the github repository of zrips.
+CMILib can be automatically upgraded, but not every operating system, hosting solution, etc. is the same. So it's possible it won't be flawless for you. If something's not working as expected, don't forget to report it as an issue on the GitHub repository of Zrips.
 
-In the `~/plugins/CMILib/` directory you can enable/disable the auto-updater feature within the `config.yml` file. 
+In the `~/plugins/CMILib/` directory you can enable/disable the auto-updater feature within the `config.yml` file.
 
 - Make sure you remove older jars, only use the latest.
 
